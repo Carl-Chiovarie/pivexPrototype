@@ -32,9 +32,13 @@ Project started: Feb-7-2021
 
 function Hexagon(){windowHeight
   //this.sideLength = 300;  // Starting side length in px
-  this.sideLength = windowHeight/3;  
+  if(windowHeight < windowWidth){
+    this.sideLength = windowHeight/3;
+  } else{
+    this.sideLength = windowWidth/3; //forgot mobile gremlins exist
+  }
+                   
   this.hexTri = [];       // triangles are stored in this list as objects
-
   this.animList = [];
   this.currentAnim = 0;
   this.animStage = 0;
