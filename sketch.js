@@ -218,10 +218,10 @@ function Hexagon(){windowHeight
       this.UVIO.groupSpinMode = Math.floor(Math.random() * 4);
       this.UVIO.stagSpinMode = Math.floor(Math.random() * 5);
 
-      print("HIT MAX ANGLE: ", this.UVIO.maxAngle);
-      print("approach minAngle: ", this.UVIO.minAngle);
-      print("rate: ", this.UVIO.rate);
-      print("");
+      //print("HIT MAX ANGLE: ", this.UVIO.maxAngle);
+      //print("approach minAngle: ", this.UVIO.minAngle);
+      //print("rate: ", this.UVIO.rate);
+      //print("");
       
     }else if( (this.animStage == 1) && (( cAngle ) <= this.UVIO.minAngle) ){ // once minAngle is reached move to stage 2
       this.UVIO.maxAngle = floor(random(121, 360)); // for no intersect use (121, 240)
@@ -231,17 +231,17 @@ function Hexagon(){windowHeight
       this.UVIO.groupSpinMode = Math.floor(Math.random() * 4);
       this.UVIO.stagSpinMode = Math.floor(Math.random() * 5);
 
-      print("HIT MIN ANGLE: ", this.UVIO.minAngle);
-      print("approach maxAngle: ", this.UVIO.maxAngle);
-      print("rate: ", this.UVIO.rate);
-      print("");
+      //print("HIT MIN ANGLE: ", this.UVIO.minAngle);
+      //print("approach maxAngle: ", this.UVIO.maxAngle);
+      //print("rate: ", this.UVIO.rate);
+      //print("");
 
     }else if( (this.animStage == 2) && (( cAngle )  >= 120) ){     // once the angle is returned to the original 120 set -
       this.animStage = 0;                                          // current anim to next in list and set stage to 0
       this.currentAnim += 1;
  
-      print("RETURNED TO 120");
-      print("");    
+      //print("RETURNED TO 120");
+      //print("");    
     }
   }
 
