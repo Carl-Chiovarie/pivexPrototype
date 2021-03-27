@@ -4,7 +4,7 @@ working state: Feb-21-2021
 
 ⬣⬡ hexagons are the bestagons ⬡⬣
 
-    Hexagon is split into six triangles numbered clockwise
+    Hexagon is split into six triangles numbered counter clockwise
 
       ___________           B_____a̲_____C
      /\         /\           \         /
