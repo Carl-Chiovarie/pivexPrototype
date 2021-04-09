@@ -164,7 +164,7 @@ function Hexagon() {
 
     groupSpin: 0, // group spin controls the angle of the base hexagon. This rotation is independent from stagger spin allowing some neat interactions in rotation
     //stagSpin: 120 / hexCount, // stagger spin rotates this hexagon and every hexagon above it. All hexagons are the same amount and direction
-    stagSpin: 120 / hexCount //60 //40
+    stagSpin: 60 //120 / hexCount //40
   };
 
   this.unisonVertexInOut = function () {
